@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Development | SirP-rezDev</title>
+        <style>
+            body {
+                padding: 0;
+                margin: 0;
+                background-color: #1E2A5E;
+            }
+            #navi {
+                height: 100px;
+                width: auto;
+                background-color: #E1D7B7;
+                margin-bottom: 10px;
+            }
+            #logo_image {
+                height: 80px;
+                width: 80px;
+                margin: 10px;
+                border-radius: 10px;
+                box-shadow: 0px 10px 8px gray;
+            }
+            #container_navi {
+                display: flex;
+                gap: 2%;
+                
+            }
+            #webname {
+                margin-top: 1%;
+            }
+            #navigate {
+                margin-top: 2%;
+                margin-left: 45%;
+            }
+            nav {
+                margin: 10px;
+                margin-top: 6%;
+            }
+            a {
+                font-size: 30px;
+                text-decoration: none;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                padding: 10px;
+                color: whitesmoke;
+                transition: all 0.3s ease-in-out;
+                border-radius: 20px;
+                font-weight: bold;
+                text-shadow: 0px 8px 8px gray;
+            }
+            a:hover {
+                background-color: #1E2A5E;
+                box-shadow: 0px 10px 8px gray;
+                padding: 20px;
+            }
+            #webnames {
+                
+                font-size: 30px;
+                margin-left: -10%;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            #hero {
+                height: 400px;
+                width: 800px;
+                background-color: #7C93C3;
+                margin: 10px;
+                border-radius: 10px;
+            }
+            #side {
+                height: 400px;
+                width: 300px;
+                background-color: #55679C;
+                margin: 10px;
+                border-radius: 10px;
+            }
+            #body_main {
+                display: flex;
+                justify-content: center;
+            }
+            #about {
+                height: 400px;
+                width: 800px;
+                background-color: #7C93C3;
+                margin: 10px;
+                border-radius: 10px;
+            }
+            #body_mainB {
+                display: flex;
+                justify-content: center;
+            }
+            @keyframes moves {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+            }
+            #headA {
+                animation: moves 10s linear infinite;
+                color: whitesmoke;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            #headB {
+                animation: moves 8s linear infinite;
+                color: skyblue;
+            }
+            #ask {
+                margin: 10px;
+                font-size: 30px;
+                font-family: sans-serif;
+            }
+            #para {
+                font-weight: normal;
+                margin: 20px;
+                margin-top: 10%;
+                font-size: 28px;
+                overflow: auto;
+                height: 250px;
+                text-align: left;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            p {
+                margin: 10px;
+                font-weight: bold;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            #side_imageA {
+                height: 200px;
+                width: 280px;
+                margin: 10px;
+                border-radius: 10px;
+                transition: transform 0.3s ease-in-out;
+            }
+            #side_imageA:hover {
+                box-shadow: 0px 0px 12px #1E2A5E;
+                border-radius: 20px;
+                transform: rotateX(45deg);
+
+            }
+            #paraA {
+                color: whitesmoke;
+                font-weight: normal;
+                font-size: 20px;
+                margin: 30px;
+                overflow: auto;
+                height: 300px;
+            }
+            #copy {
+                text-align: center;
+                color: whitesmoke;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            #sp {
+                margin: 10px;
+                height: 200px;
+                border-radius: 10px;
+                box-shadow: 0px 0px 12px #1E2A5E;
+                border-radius: 20px;
+            }
+            #info {
+                font-weight: normal;
+                font-size: 15px;
+                justify-content: center;
+                text-align: center;
+            }
+            #webb {
+                color: darkblue;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="navi">
+            <div id="container_navi">
+                <div id="logo">
+                    <img id="logo_image" src="web4a.jpg" alt="logo_image" src="C:\Users\PC Admin\Downloads\NewPro\image">
+                </div>
+                <div id="webname">
+                    <h3 id="webnames"><span id="webb">Web </span>Development</h3>
+                </div>
+                <div id="navigate">
+                    <nav>
+                        <a href="#hero">Home</a>
+                        <a href="#about">About</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div id="animation_container">
+            <h1 id="headA">Web development builds a business's online presence.</h1>
+            <h2 id="headB">A well-designed website enhances user experience.</h2>
+        </div>
+        <div id="body_main">
+            <div id="hero">
+                <i>
+                    <h2 id="ask">What is Web Development?</h2>
+                </i>
+                <div id="parag">
+                    <p id="para">Web development is the process of creating and maintaining websites. It involves a range of tasks, including web design, web content creation, client-side/server-side scripting, and network security configuration.<br><br>* Front-End Development: This is what users interact with directly in their web browsers. It involves designing the layout, look, and feel of a website using technologies like HTML (for structure), CSS (for styling), and JavaScript (for interactivity).<br><br>* Back-End Development: This involves working on the server side, where the logic and database management happen. Back-end developers use server-side languages like Python, PHP, Ruby, or Java to manage data and ensure the website functions correctly.<br><br>* Full-Stack Development: A full-stack developer handles both front-end and back-end development. They are knowledgeable in both areas and can manage the entire web development process.</p>
+                </div>
+            </div>
+            <div id="side">
+                <img id="side_imageA" src="imgs.jfif" alt="C:\Users\PC Admin\Downloads\NewPro\image">
+                <p>Did you know? The first-ever website, created by Tim Berners-Lee, went live on August 6, 1991. It was hosted on a NeXT computer at CERN (European Organization for Nuclear Research) and was dedicated to providing information about the World Wide Web project.</p>
+            </div>
+        </div>
+        <div id="body_mainB">
+            <div id="side">
+                <img id="sp" src="sp.gif" alt="C:\Users\PC Admin\Downloads\NewPro\image">
+                <h4 id="info">Information</h4>
+                <a id="info" href="https://explorer.globe.engineer/search?qd=%5B%7B%22searchbox_query%22%3A%22importance%20of%20web%20development%22%2C%22search_id%22%3A%22de020c1b-bd92-4a9e-8476-1c913912361b%22%2C%22index%22%3A0%2C%22type%22%3A%22initial_searchbox%22%2C%22clicked_category%22%3Anull%2C%22staged_image%22%3Anull%2C%22location%22%3Anull%7D%5D&sid=de020c1b-bd92-4a9e-8476-1c913912361b" target="_blank">For other information, click Me!</a>
+            </div>
+            <div id="about">
+                <h1 id="ask">Importance</h1>
+                <p id="paraA">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The process of creating and managing websites is called web development. It is significant because: Websites are necessary for companies and organizations to create an online identity, connect with a larger clientele, and offer goods and services to end consumers. Website development is the process of creating and managing websites. Good web development makes sure websites are aesthetically pleasing, easy to use, and work effectively on all platforms and browsers. It is significant because: For individuals, corporations, and organizations, websites serve as their principal online presence. A website that is developed effectively guarantees that it is aesthetically pleasing, useful, and offers a satisfying user experience. Increased traffic, engagement, and conversions may result from this. Skills in web development are quite significant in the job market because there is a high need for qualified</p>
+            </div>
+        </div>
+        <div id="last">
+            <h3 id="headA">Websites provide valuable data analytics for businesses.</h3>
+            <h2 id="headB">Web development ensures accessibility across devices.</h5>
+        </div>
+    </body>
+    <footer>
+        <div id="footers">
+            <h3 id="copy">&copy; SirP-rezDev Copyright</h3>
+        </div>
+    </footer>
+</html>
